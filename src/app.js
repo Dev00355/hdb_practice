@@ -12,7 +12,7 @@ client.connect(function (err) {
   if (err) {
   	return console.error('Connect error', err);
   }
-  client.exec('select * from DUMMY', function (err, rows) {
+  client.exec('select * from My_First_table', function (err, rows) {
     client.end();
     if (err) {
       return console.error('Execute error:', err);
