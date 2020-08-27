@@ -1,0 +1,14 @@
+{
+  "name": "first_hana_connect",
+  "version": "1.0.0",
+  "description": "hdb connect example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dev",
+  "license": "ISC",
+  "dependencies": {
+    "hdb": "^0.18.1"
+  }
+}
